@@ -1,74 +1,83 @@
-**CHROME EXTENSION FOR TIME TRACKING AND PRODUCTIVITY ANALYTICS**
+# ⏱️ Time Tracker & Productivity Analytics Chrome Extension
 
+**Company Name**: CODETECH IT SOLUTIONS  
+**Intern Name**: AKSHAY H NAYAK  
+**Intern ID**: CT4MWA21  
+**Domain**: MERN STACK WEB DEVELOPMENT  
+**Duration**: 15 Weeks  
+**Mentor**: NEELA SANTHOSH  
 
-Company Name : CODETECH IT SOLUTIONS
+---
 
-Name : AKSHAY H NAYAK
+## 🚀 Project Description
 
-Intern ID : CT4MWA21
+A **Chrome Extension** that tracks the time spent on different websites and provides productivity analytics. It categorizes websites into productive (e.g., coding platforms) and unproductive (e.g., social media), enabling users to effectively monitor and improve their browsing habits.
 
-Domain : MERN STACK WEB DEVELOPMENT
+---
 
-Duration : 15 Weeks
+## ✅ Features
 
-Mentor : NEELA SANTHOSH
+- ✅ Tracks time spent on websites  
+- ✅ Categorizes websites as productive or unproductive  
+- ✅ Popup to view real-time tracking data  
+- ✅ Dashboard with analytics and reports  
+- ✅ Clear Data option to reset tracking  
+- ✅ Download report as a `.txt` file  
+- ✅ Backend with Node.js & Express for persistent data storage  
 
-## PROJECT DESCRIPTION
+---
 
-**TITLE : Time Tracker & Productivity Analytics Chrome Extension**
+## 📂 Project Structure
 
-A **Chrome Extension** that **tracks the time spent on different websites** and provides **productivity analytics**. It categorizes websites into **productive** (e.g., coding platforms) and **unproductive** (e.g., social media), allowing users to monitor their usage patterns effectively.  
+```
+time-tracker-extension/
+├── manifest.json
+├── background.js
+├── content.js
+├── popup/
+│   ├── popup.html
+│   ├── popup.js
+│   └── popup.css
+├── dashboard/
+│   ├── dashboard.html
+│   ├── dashboard.js
+│   └── dashboard.css
+├── server/
+│   ├── server.js
+│   └── database.json  # For simple storage
+└── package.json
+```
 
-## 🚀 Features  
-- ✅ Tracks **time spent** on websites  
-- ✅ Categorizes websites as **productive** or **unproductive**  
-- ✅ **Popup** to view real-time tracking data  
-- ✅ **Dashboard** with analytics and reports  
-- ✅ **Clear Data** option to reset tracking  
-- ✅ **Download report** as a `.txt` file  
-- ✅ **Backend with Node.js & Express** for persistent data storage  
+---
 
-## 📂 Project Structure  
+## 📊 How It Works
 
-    time-tracker-extension/
-        ─ manifest.json
-        ─ background.js
-        ─ content.js
-        ─ popup/
-            ─ popup.html
-            ─ popup.js
-            ─ popup.css
-        ─ dashboard/
-            ─ dashboard.html
-            ─ dashboard.js
-            ─ dashboard.css
-        ─ server/
-            ─ server.js
-            ─ database.json  (For simple storage)
-        ─ package.json
+1. **Browse Websites** → The extension tracks time spent  
+2. **Check Popup** → View real-time data summary  
+3. **View Dashboard** → Analytics with productive/unproductive split  
+4. **Clear Data** → Reset all tracking info  
+5. **Download Report** → Export data to a `.txt` file  
 
+---
 
+## 🛠 Built With
 
-## 📊 How It Works  
-1. **Browse Websites** → The extension tracks time spent.  
-2. **Check Popup** → Shows a quick summary of tracked websites.  
-3. **View Dashboard** → Categorizes websites as **productive/unproductive**.  
-4. **Clear Data** → Reset tracking anytime.  
-5. **Download Report** → Save tracking data as a `.txt` file.  
+- **Frontend**: HTML, CSS, JavaScript  
+- **Backend**: Node.js, Express.js  
+- **Database**: JSON (with option to integrate MongoDB)  
+- **Extension API**: Chrome Extensions Manifest v3  
 
+---
 
-## 🛠 Built With  
-- **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** Node.js, Express.js  
-- **Database:** JSON (or MongoDB integration possible)  
-- **Extension API:** Chrome Extensions Manifest v3  
+## 🎯 Future Enhancements
 
+- 🗃️ Add MongoDB instead of JSON storage  
+- 📊 Improve UI with charts (e.g., Chart.js)  
+- 🚫 Add website blocking for unproductive sites  
+- 🏷️ Set custom productivity categories  
 
-## 🎯 Future Enhancements  
-- Add MongoDB instead of JSON storage  
-- Improve UI with charts (e.g., Chart.js)  
-- Add **website blocking** for unproductive sites  
-- Set **custom productivity categories**  
+---
+
 
 ## Output
 
