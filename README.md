@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# CHROME EXTENSION FOR TIME TRACKING AND PRODUCTIVITY ANALYTICS 
+CHROME EXTENSION FOR TIME TRACKING AND PRODUCTIVITY ANALYTICS 
 
 ## PROJECT DESCRIPTION
 
@@ -60,13 +59,3 @@ A **Chrome Extension** that **tracks the time spent on different websites** and 
 
 ## Output
 
-**Working demo video**
-
-https://drive.google.com/file/d/1VS2RgeqR1HqwAG3X1Ow5BMkHJ9AwqO6h/view?usp=sharing
-
-![Image](https://github.com/user-attachments/assets/513bc709-c5ce-4945-b345-0696ebe62a35)
-
-![Image](https://github.com/user-attachments/assets/8f1197f3-3167-4683-83bd-527efc8c2167)
-=======
-# Chrome-Extension-For-Productivity
->>>>>>> e3e00718d8500db38d27afc5861aa6cb0284394f
